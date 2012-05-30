@@ -10,7 +10,7 @@ Requires at least: 3.2
 Tested up to: 3.3.2
 Stable tag: 12.05
 Version: 12.05
-License: GPLv2
+License: GPLv2 or later
 
 == Description ==
 
