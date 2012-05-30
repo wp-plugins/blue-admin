@@ -31,7 +31,7 @@ No, because Wordpress could change after each update the admin style, and the pl
 
 == Screenshots ==
 
-1. The dashboard
+1. dashboard.jpg
 
 == Changelog ==
 
