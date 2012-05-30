@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Linesh Jose
+Contributors: lineshjose
 Plugin Name: Blue Admin
 Plugin URI: http://lineshjose.com/
 Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar
@@ -31,7 +31,7 @@ No, because Wordpress could change after each update the admin style, and the pl
 
 == Screenshots ==
 
-1. dashboard.jpg
+1. screenshot-1.jpg
 
 == Changelog ==
 
