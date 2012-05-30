@@ -1,11 +1,16 @@
 === Plugin Name ===
 Contributors: Linesh Jose
+Plugin Name: Blue Admin
+Plugin URI: http://lineshjose.com/
 Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar
-Requires at least: 3.2.0
+Author URI: http://lineshjose.com/
+Author: Linesh Jose
+Donate link: http://bit.ly/go_fund
+Requires at least: 3.2
 Tested up to: 3.3.2
 Stable tag: 12.05
-
-This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
+Version: 12.05
+License: GPLv2
 
 == Description ==
 
