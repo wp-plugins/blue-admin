@@ -12,6 +12,8 @@ Stable tag: 12.05
 Version: 12.05
 License: GPLv2 or later
 
+This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
+
 == Description ==
 
 This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
@@ -24,7 +26,6 @@ This is a simple and clear admin design that makes your WordPress administration
 
 == Frequently Asked Questions ==
 
-
 = Is the plugin compatible with all WP versions? =
 
 No, because Wordpress could change after each update the admin style, and the plugin is based on it. So if you want to be sure to see the correct style of Blue Admin you need last Wordpress version.
@@ -32,11 +33,15 @@ No, because Wordpress could change after each update the admin style, and the pl
 == Screenshots ==
 
 1. screenshot-1.jpg
+2. screenshot-2.jpg
+3. screenshot-3.jpg
+4. screenshot-4.jpg
 
 == Changelog ==
 
-= 12.05 =
-First version. The Blue Admin version numbering scheme is based on the release  date. The version number comes from the year and month of the release rather than reflecting the actual version of the software.
+= 12.05 (First version.) =
+
+The Blue Admin version numbering scheme is based on the release  date. The version number comes from the year and month of the release rather than reflecting the actual version of the plugin.
 
 == Support ==
 For support & more informations visit http://lineshjose.com/contact
