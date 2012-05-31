@@ -13,7 +13,11 @@ License: GPL2
 		wp_register_style( 'blue-admin', WP_PLUGIN_URL . '/blueadmin/style.css', false, '1.0.0' );
 		wp_enqueue_style( 'blue-admin' );
 	}
-	
+	function footer_credit()
+	{
+		echo '<span id="footer-thankyou">Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.</span>
+			<span id="footer-thankyou">This theme developed by <a href="http://lineshjose.com/">Linesh Jose</a>.</span>';
+	}
 	function custom_login()
 	{
 		echo '
@@ -40,6 +44,7 @@ License: GPL2
 	if (is_admin()) 
 	{
 		add_action('admin_enqueue_scripts', 'blue_admin');
+		add_filter('admin_footer_text', 'footer_credit'); 
 	}
 	add_action('login_head', 'custom_login');
 
