@@ -2,7 +2,7 @@
 Contributors: lineshjose
 Plugin Name: Blue Admin
 Plugin URI: http://lineshjose.com/
-Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar
+Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar,floating admin menu
 Author URI: http://lineshjose.com/
 Author: Linesh Jose
 Donate link: http://bit.ly/go_fund
@@ -25,6 +25,14 @@ This is a simple and clear admin design that makes your WordPress administration
 3. Navigate in Wordpress Admin Pages and see the new, clean design!
 
 == Frequently Asked Questions ==
+
+= Does the plugin change Wordpress layout? =
+Yes, this plugin will make these changes on your administration section.
+
+1. It changes the CSS Style admin section, thickbox and login form.
+2. It changes the themes listing style.
+3. Floating admin menu.
+4. It changes the icons
 
 = Is the plugin compatible with all WP versions? =
 
