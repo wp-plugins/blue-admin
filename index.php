@@ -10,7 +10,7 @@ License: GPL2
 */
 	function blue_admin()
 	{
-		wp_register_style( 'blue-admin', WP_PLUGIN_URL . '/blue-admin/style.css', false, '1.0.0' );
+		wp_register_style( 'blue-admin', WP_PLUGIN_URL . '/blue-admin/style.css', false, '12.06.01' );
 		wp_enqueue_style( 'blue-admin' );
 	}
 	function footer_credit()
