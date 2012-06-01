@@ -87,6 +87,8 @@
 	.table_discussion .total-count,.table_discussion .approved-count,.table_discussion .pending-count,.table_discussion .spam-count{font-size: 18px;}
 	h3 span {font-size: 12px;font-weight: bold;}
 	.wp-editor-area{font-size:14px;}
+	.inner-sidebar #side-sortables, .columns-2 .inner-sidebar #side-sortables{width:300px!important}
+	
 	
 	#TB_overlay,.ui-widget-overlay{background:none!important;}
 	#TB_window,.wp-dialog {-moz-box-shadow:none!important;-webkit-box-shadow:none!important;box-shadow:none!important; border: 10px solid rgba(82, 82, 82, .7)!important; -webkit-background-clip: padding-box!important;background-clip: padding-box!important; -moz-background-clip: padding!important;-webkit-border-radius: 3px!important;
