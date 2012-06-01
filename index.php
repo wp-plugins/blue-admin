@@ -3,7 +3,7 @@
 Plugin Name: Blue Admin
 Plugin URI: http://lineshjose.com
 Description: This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
-Version: 12.05
+Version: 12.06
 Author: Linesh Jose
 Author URI: http://lineshjose.com
 License: GPL2

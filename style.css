@@ -49,7 +49,6 @@
 
 	/* Admin Menu */
 	#adminmenushadow, #adminmenuback {}
-	#adminmenuwrap{ position: fixed; top: 0px; left: 0; }
 	#adminmenuback, #adminmenuwrap {background-color: #FFF; padding-top:20px;}
 	#adminmenu li.wp-has-current-submenu .wp-menu-arrow, #adminmenu li.menu-top:hover .wp-menu-arrow, #adminmenu li.current .wp-menu-arrow, #adminmenu li.focused .wp-menu-arrow, #adminmenu li.menu-top.wp-has-submenu:hover .wp-menu-arrow div {display: none;}
 	#adminmenu .wp-menu-arrow div, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,

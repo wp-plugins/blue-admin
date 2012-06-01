@@ -9,7 +9,7 @@ Donate link: http://bit.ly/go_fund
 Requires at least: 3.2
 Tested up to: 3.3.2
 Stable tag: 12.05
-Version: 12.05
+Version: 12.06
 License: GPLv2 or later
 
 This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
@@ -31,7 +31,6 @@ Yes, this plugin will make these changes on your administration section.
 
 1. It changes the CSS Style admin section, thickbox and login form.
 2. It changes the themes listing style.
-3. Floating admin menu.
 4. It changes the icons
 
 = Is the plugin compatible with all WP versions? =
@@ -44,6 +43,9 @@ No, because Wordpress could change after each update the admin style, and the pl
 
 
 == Changelog ==
+
+= 12.06 =
+Fixed Admin menu scrolling issue
 
 = 12.05 (First version.) =
 
