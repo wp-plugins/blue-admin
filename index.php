@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Blue Admin
-Plugin URI: http://lineshjose.com
+Plugin URI: http://tech.lineshjose.com/introducing-blue-admin/
 Description: This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
 Version: 12.06
 Author: Linesh Jose
