@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: lineshjose
 Plugin Name: Blue Admin
-Plugin URI: http://lineshjose.com/
+Plugin URI: http://tech.lineshjose.com/introducing-blue-admin/
 Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar,floating admin menu
 Author URI: http://lineshjose.com/
 Author: Linesh Jose
