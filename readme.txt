@@ -48,10 +48,10 @@ No, because Wordpress could change after each update the admin style, and the pl
 Changed client side admin bar style and Some other CSS modifcations.
 
 
-= 12.06.01 =
+= 12.06 =
 Fixed Admin menu scrolling issue
 
-= 12.05.30 (First version.) =
+= 12.05 (First version.) =
 
 The Blue Admin version numbering scheme is based on the release  date. The version number comes from the year and month of the release rather than reflecting the actual version of the plugin.
 
