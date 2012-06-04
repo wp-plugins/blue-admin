@@ -8,7 +8,7 @@ Author: Linesh Jose
 Author URI: http://lineshjose.com
 License: GPL2
 */
-	$version='12.06.06';
+	$version='12.06.04';
 	
 	// For admmin side only //
 	function bd_admin()
