@@ -9,7 +9,7 @@ Donate link: http://bit.ly/go_fund
 Requires at least: 3.2
 Tested up to: 3.3.2
 Stable tag: 12.06
-Version: 12.06
+Version: 12.06.04
 License: GPLv2 or later
 
 This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
@@ -44,10 +44,14 @@ No, because Wordpress could change after each update the admin style, and the pl
 
 == Changelog ==
 
-= 12.06 =
+= 12.06.04 =
+Changed client side admin bar style and Some other CSS modifcations.
+
+
+= 12.06.01 =
 Fixed Admin menu scrolling issue
 
-= 12.05 (First version.) =
+= 12.05.30 (First version.) =
 
 The Blue Admin version numbering scheme is based on the release  date. The version number comes from the year and month of the release rather than reflecting the actual version of the plugin.
 
