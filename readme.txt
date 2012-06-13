@@ -7,7 +7,7 @@ Author URI: http://lineshjose.com/
 Author: Linesh Jose
 Donate link: http://bit.ly/go_fund
 Requires at least: 3.2
-Tested up to: 3.3.2
+Tested up to: 3.4
 Stable tag: 12.06.04
 Version: 12.06.04
 License: GPLv2 or later
