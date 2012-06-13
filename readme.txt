@@ -12,7 +12,7 @@ Stable tag: 12.06.04
 Version: 12.06.04
 License: GPLv2 or later
 
-This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Read more about [Blue Admin](http://tech.lineshjose.com/introducing-blue-admin/).
+This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
 
 
 == Description ==
