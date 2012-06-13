@@ -17,12 +17,16 @@ This is a simple and clear admin design that makes your WordPress administration
 == Description ==
 
 This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
+[youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
 == Installation ==
 
 1. Upload Blue Admin folder to the `/wp-content/plugins/` directory or download it from the administration
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate in Wordpress Admin Pages and see the new, clean design!
+
+Watch this video to know how to enable/install Blue Admin Plugin on your WordPress site.
+[youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
 == Frequently Asked Questions ==
 
@@ -53,7 +57,7 @@ Fixed Admin menu scrolling issue
 
 = 12.05 (First version.) =
 
-* Our version numbering scheme is based on the release  date. The version number comes from the year, month and date of the release.
+*Our version numbering scheme is based on the release  date. The version number comes from the year, month and date of the release.*
 
 == Support ==
 For support & more informations visit http://lineshjose.com/contact
