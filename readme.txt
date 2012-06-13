@@ -2,7 +2,7 @@
 Contributors: lineshjose
 Plugin Name: Blue Admin
 Plugin URI: http://tech.lineshjose.com/introducing-blue-admin/
-Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar,floating admin menu
+Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar
 Author URI: http://lineshjose.com/
 Author: Linesh Jose
 Donate link: http://bit.ly/go_fund
@@ -53,7 +53,7 @@ Fixed Admin menu scrolling issue
 
 = 12.05 (First version.) =
 
-The Blue Admin version numbering scheme is based on the release  date. The version number comes from the year and month of the release rather than reflecting the actual version of the plugin.
+* Our version numbering scheme is based on the release  date. The version number comes from the year, month and date of the release.
 
 == Support ==
 For support & more informations visit http://lineshjose.com/contact
