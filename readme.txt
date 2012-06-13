@@ -12,11 +12,14 @@ Stable tag: 12.06.04
 Version: 12.06.04
 License: GPLv2 or later
 
-This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
+This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Read more about [Blue Admin](http://tech.lineshjose.com/introducing-blue-admin/).
+
 
 == Description ==
 
-This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
+This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Read more about [Blue Admin](http://tech.lineshjose.com/introducing-blue-admin/).
+
+Watch this video to know how to enable/install Blue Admin Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
 == Installation ==
@@ -27,6 +30,7 @@ This is a simple and clear admin design that makes your WordPress administration
 
 Watch this video to know how to enable/install Blue Admin Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
+
 
 == Frequently Asked Questions ==
 
@@ -55,7 +59,8 @@ Changed client side admin bar style and Some other CSS modifcations.
 = 12.06 =
 Fixed Admin menu scrolling issue
 
-= 12.05 (First version.) =
+= 12.05  =
+First version.
 
 *Our version numbering scheme is based on the release  date. The version number comes from the year, month and date of the release.*
 
