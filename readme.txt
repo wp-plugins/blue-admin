@@ -19,7 +19,7 @@ This is a simple and clear admin design that makes your WordPress administration
 
 This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Read more about [Blue Admin](http://tech.lineshjose.com/introducing-blue-admin/).
 
-Watch this video to know how to enable/install Blue Admin Plugin on your WordPress site.
+Watch this video below, to know how to enable/install Blue Admin Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
 == Installation ==
@@ -28,7 +28,7 @@ Watch this video to know how to enable/install Blue Admin Plugin on your WordPre
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate in Wordpress Admin Pages and see the new, clean design!
 
-Watch this video to know how to enable/install Blue Admin Plugin on your WordPress site.
+Watch this video below, to know how to enable/install Blue Admin Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
 
