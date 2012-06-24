@@ -66,7 +66,7 @@
 	.table_discussion .total-count,.table_discussion .approved-count,.table_discussion .pending-count,.table_discussion .spam-count{font-size: 18px;}
 	h3 span {font-size: 12px;font-weight: bold;}
 	.wp-editor-area{font-size:14px;}
-	#side-sortables{width:290px!important}
+	#post-body.columns-2 #postbox-container-1{width:290px!important}
 	.columns-2 .inner-sidebar{width:auto!important}
 	
 	
