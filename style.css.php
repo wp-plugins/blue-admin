@@ -104,7 +104,8 @@ border-radius: 3px!important;-moz-border-radius: 3px!important;}
 	.available-theme h3 {margin: 0px 0 5px!important;}
 	.available-theme p{margin-left:170px;}
 	.available-theme .action-links{}
-
+	.available-theme .action-links .delete-theme{float: none;margin-left: 180px;border-left: 1px solid #EEE;}
+	.available-theme .action-links .delete-theme {padding-left:10px;}
 	#wpcontent, #footer {background:#fff;}
 	
 	/* Login Form */
