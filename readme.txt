@@ -22,6 +22,11 @@ This is a simple and clear admin design that makes your WordPress administration
 Watch this video below, to know how to enable/install Blue Admin Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
+**Features**
+
+* Clean and clear admin design.
+* Custom navigation menus to your WordPress Adminbar/Toolbar.(only compatible for WordPress 3.3 or above versions)
+
 
 == Installation ==
 
