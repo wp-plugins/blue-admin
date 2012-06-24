@@ -53,9 +53,11 @@ No, because Wordpress could change after each update the admin style, and the pl
 
 == Changelog ==
 
+= 12.06.24 =
+Added Custom Adminbar Menus feature to Bule Admin. Also some CSS modifications.
+
 = 12.06.04 =
 Changed client side admin bar style and Some other CSS modifcations.
-
 
 = 12.06 =
 Fixed Admin menu scrolling issue
