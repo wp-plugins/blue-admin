@@ -13,7 +13,7 @@ License: GPL2
 	// For admmin side only //
 	function bd_admin()
 	{
-		wp_register_style( 'blue-admin', plugin_dir_url(__FILE__) . 'style.css.php?t=a', false, $version );
+		wp_register_style( 'blue-admin', plugin_dir_url(__FILE__) . 'style.css.php?t=a', true, $version );
 		wp_enqueue_style( 'blue-admin' );
 	}
 	add_action('admin_enqueue_scripts', 'bd_admin');
@@ -22,7 +22,7 @@ License: GPL2
 	// For Client side only //
 	function bd_client()
 	{
-		wp_register_style( 'blue-admin', plugin_dir_url(__FILE__) . 'style.css.php', false, $version );
+		wp_register_style( 'blue-admin', plugin_dir_url(__FILE__) . 'style.css.php', true, $version );
 		wp_enqueue_style( 'blue-admin' );
 	}
 	add_action('wp_enqueue_scripts', 'bd_client');
