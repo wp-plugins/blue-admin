@@ -5,11 +5,11 @@ Plugin URI: http://tech.lineshjose.com/introducing-blue-admin/
 Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,wordpress administration,facebook style,facebook looks-like,blue,blue admin bar,custom menus,custom navigation,adminbar navigation,adminbar menus
 Author URI: http://lineshjose.com/
 Author: Linesh Jose
-Donate link: http://bit.ly/go_fund
+Donate link: http://bit.ly/donate-blue-admin
 Requires at least: 3.2
-Tested up to: 3.4
-Stable tag: 12.06.24
-Version: 12.06.24
+Tested up to: 3.4.1
+Stable tag: 12.07.25
+Version: 12.07.25
 License: GPLv2 or later
 
 This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
@@ -17,12 +17,12 @@ This is a simple and clear admin design that makes your WordPress administration
 
 == Description ==
 
-This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Read more about [Blue Admin](http://tech.lineshjose.com/introducing-blue-admin/).
+This is a simple and clear admin design that makes your **WordPress** administration section more clear and relaxed. Read more about **[Blue Admin](http://tech.lineshjose.com/introducing-blue-admin/)**.
 
 **Features**
 
 * Clean and clear admin design.
-* Custom navigation menus to your WordPress Adminbar/Toolbar.(only compatible for WordPress 3.3 or above versions)
+* Custom navigation menus to your **WordPress Adminbar/Toolbar**.(only compatible for WordPress 3.3 or above versions)
 
 Watch this video below, to know how to enable/install Blue Admin Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
@@ -36,9 +36,10 @@ Watch this video below, to know how to enable/install Blue Admin Plugin on your 
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate in Wordpress Admin Pages and see the new, clean design!
 
-Watch this video below, to know how to enable/install Blue Admin Plugin on your WordPress site.
+Watch this video below, to know how to enable/install **Blue Admin** Plugin on your WordPress site.
 [youtube http://www.youtube.com/watch?v=H3W4R23QlFk]
 
+**Note:** From version **12.07.25**, We have changed core settings. If you are using old Blue Admin plugin, please delete current version of Blue Admin from your wordpress plugin directory before installing/updating. 
 
 == Frequently Asked Questions ==
 
@@ -53,12 +54,21 @@ Yes, this plugin will make these changes on your administration section.
 
 No, because Wordpress could change after each update the admin style, and the plugin is based on it. So if you want to be sure to see the correct style of Blue Admin you need last Wordpress version.
 
-== Screenshots ==
 
-1. screenshot-1.jpg
+== Screenshots == 
+
+1. Login Form
+2. Dashboard
+3. Tollbar Menu 
+4. AdminMenu
+5. Popup Window
+
+
 
 
 == Changelog ==
+= 12.07.25 =
+We have changed core settings. If you are already installed Blue Admin plugin, please delete current version of Blue Admin from your wordpress plugin directory before installing/updating. 
 
 = 12.06.24 =
 Added Custom Adminbar Menus feature to Bule Admin. Also some CSS modifications.
