@@ -19,7 +19,7 @@
 					</h3>
 		<div class="blue_admin_settings" style="margin:0; padding:10px">
 		<!-- General settings page starts -->
-<img src="<?php  echo  $wp_lj_plugin['url']; ?>/inc/images/banner-772x250.jpg" alt="<?php echo $wp_lj_plugin['name']; ?>" title="<?php echo $wp_lj_plugin['name']; ?>" width="500" height="170" class="alignleft" style="padding:5px; border:1px solid #eee; height:170px; width:470px; margin-right:10px; background:#fff"/>
+<img src="<?php  echo  $wp_lj_plugin['url']; ?>inc/images/banner-772x250.jpg" alt="<?php echo $wp_lj_plugin['name']; ?>" title="<?php echo $wp_lj_plugin['name']; ?>" width="500" height="170" class="alignleft" style="padding:5px; border:1px solid #eee; height:170px; width:470px; margin-right:10px; background:#fff"/>
 
 <div>
 	<p style="font-size:13px; margin:0;">Thanks for downloading <strong> <?php echo $wp_lj_plugin['name']; ?> </strong>(ver. <?php echo $wp_lj_plugin['version']; ?>) by  <a href="http://lineshjose.com/" style="font-size:13px">Linesh Jose</a>. This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Hope you enjoy using it!. There are a bunch of cool features that will surely help you get your admin panel looking and working it's best. A lot of hard work went in to programming and designing <strong> <?php echo $wp_lj_plugin['name']; ?> </strong> plugin, and if you would like to support <a href="http://lineshjose.com/" style="font-size:13px">Linesh Jose</a> (the guy who designed it) please use the donate button below.   </p>
