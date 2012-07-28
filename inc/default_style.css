@@ -96,7 +96,7 @@
 	#adminmenu .menu-icon-users div.wp-menu-image, #adminmenu .menu-icon-tools div.wp-menu-image,#adminmenu .menu-icon-settings div.wp-menu-image{background-image:url('images/menu.png') !important;}
 	.icon16.icon-dashboard, #adminmenu .menu-icon-dashboard div.wp-menu-image {background-position:-59px -34px}
 	
-	#adminmenu .awaiting-mod, #adminmenu span.update-plugins, #sidemenu li a span.update-plugins {-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;background: #D8DFEA;color: #3B5998; }
+	#adminmenu .awaiting-mod, #adminmenu span.update-plugins, #sidemenu li a span.update-plugins {-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;background: #D8DFEA!important;color: #3B5998!important; }
 	#adminmenu li .awaiting-mod span, #adminmenu li span.update-plugins span, #sidemenu li a span.update-plugins span{font-weight:bold!important; font-size: 11px;padding: 1px 10px;}
 	#adminmenu li.current a .awaiting-mod, #adminmenu li a.wp-has-current-submenu .update-plugins {color: #000;}
 	#collapse-button,#collapse-menu:hover #collapse-button {border-radius:0!important; background:#3B5998; border-color:#133783}
