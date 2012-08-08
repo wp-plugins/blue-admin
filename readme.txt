@@ -71,6 +71,9 @@ No, because WordPress could change after each update the admin style, and the pl
  
 == Changelog == 
 = 12.08.09 = 
+Fixed some security bugs. 
+
+= 12.08.08 = 
 Added RTL support and new Blue Admin settings page interface. 
  
  
