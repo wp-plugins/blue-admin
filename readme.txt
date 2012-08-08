@@ -66,7 +66,7 @@ No, because WordPress could change after each update the admin style, and the pl
 4. Admin Menu - Normal and Folded view.
 5. Popup Window.
 6. RTL site view.
-7. Blue Admin interface. 
+7. Blue Admin Settings Page.
  
  
 == Changelog == 
