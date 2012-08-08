@@ -64,7 +64,7 @@
 	#adminmenu li.wp-menu-separator{margin:5px 0}
 	.folded #adminmenushadow, .folded #adminmenu li.wp-menu-separator {display:none; margin:0;}
 	#adminmenu div.separator {border-color:#eee;}
-	#adminmenu {min-height:500px}
+	#adminmenu {min-height:650px}
 	#adminmenu .wp-submenu, #adminmenu .wp-submenu ul,#adminmenu .wp-submenu .wp-submenu-wrap{background:none!important;}
 	#adminmenu .wp-submenu ul {padding: 0;}
 	#adminmenu .wp-submenu-wrap, #adminmenu .wp-submenu ul {border-color: #E0E0E0;}

@@ -4,8 +4,8 @@ Contributors: lineshjose
 Author: Linesh Jose  
 Author URI: http://lineshjose.com/ 
 Plugin Name: Blue Admin 
-Stable tag: 12.08 
-Version: 12.08.09  
+Stable tag: 12.08.09
+Version: 12.08.09
 Plugin URI: http://tech.lineshjose.com/introducing-blue-admin/ 
 Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,WordPress administration,facebook style,facebook looks-like,blue,blue admin bar,custom menus,custom navigation,adminbar navigation,adminbar menus 
 Donate link: http://bit.ly/donate-blue-admin 
@@ -69,7 +69,7 @@ No, because WordPress could change after each update the admin style, and the pl
  
  
 == Changelog == 
-= 12.08.08 = 
+= 12.08.09 = 
 Added RTL support and new Blue Admin settings page interface. 
  
  
