@@ -149,7 +149,8 @@
 	
 	#wpadminbar .menupop li:hover > .ab-sub-wrapper, 
 	#wpadminbar .menupop li.hover > .ab-sub-wrapper{
-		margin-top:-30px
+		margin-top:-30px;
+		border:1px solid #133783!important; 
 	}
 	#wpadminbar .quicklinks .menupop ul li .ab-item{
 		color: #3B5998!important;
