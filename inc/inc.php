@@ -96,7 +96,7 @@
 	// Creating Custom Settings Page //
 	if(!function_exists('lj_bd_admin'))
 	{
-		wp_get_current_user();
+		//wp_get_current_user();
 		
 			function lj_bd_admin()
 			{	
