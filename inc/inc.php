@@ -98,15 +98,14 @@
 	{
 		wp_get_current_user();
 		echo  current_user_can( $capability );
-		if ( $current_user->user_level >  8 )
-		{
+		
 			function lj_bd_admin()
 			{	
 				global $wp_lj_plugin;
 				add_menu_page($wp_lj_plugin['name'],$wp_lj_plugin['name'], 1, $wp_lj_plugin['slug'], 'lj_bd_admin_header',$wp_lj_plugin['url'].'/inc/images/trans.png');
 			}
 			add_action('admin_menu', 'lj_bd_admin');
-		} 
+		 
 	}
 	
 	
