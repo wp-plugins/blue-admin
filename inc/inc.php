@@ -77,31 +77,15 @@
 	}
 	
 	
-	// Defining wp_get_current_user() //
-	if ( !function_exists('wp_get_current_user') ) 
-	{
-		function wp_get_current_user() 
-		{
-			// Insert pluggable.php before calling get_currentuserinfo()
-			require (ABSPATH . WPINC . '/pluggable.php');
-			global $current_user;
-			get_currentuserinfo();
-			return $current_user;
-		}
-	
-	}
-   
    
    
 	// Creating Custom Settings Page //
 	if(!function_exists('lj_bd_admin'))
 	{
-		//wp_get_current_user();
-		
 			function lj_bd_admin()
 			{	
 				global $wp_lj_plugin;
-				add_menu_page($wp_lj_plugin['name'],$wp_lj_plugin['name'], 1, $wp_lj_plugin['slug'], 'lj_bd_admin_header',$wp_lj_plugin['url'].'/inc/images/trans.png');
+				add_menu_page($wp_lj_plugin['name'],$wp_lj_plugin['name'], 'add_users', $wp_lj_plugin['slug'], 'lj_bd_admin_header',$wp_lj_plugin['url'].'/inc/images/trans.png');
 			}
 			add_action('admin_menu', 'lj_bd_admin');
 	}
