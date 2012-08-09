@@ -27,10 +27,6 @@ This is a simple and clear admin design that makes your **WordPress** administra
 * Custom navigation menus to your **WordPress Adminbar/Toolbar**.(only compatible for WordPress 3.3 or above versions) 
 * RTL support for Arabic and other RTL languages.
   
-Watch this video below, to know how to enable/install Blue Admin Plugin on your WordPress site. 
-[youtube http://www.youtube.com/watch?v=H3W4R23QlFk] 
- 
- 
  
  
 == Installation == 
@@ -39,10 +35,7 @@ Watch this video below, to know how to enable/install Blue Admin Plugin on your 
 2. Activate the plugin through the 'Plugins' menu in WordPress 
 3. Navigate in WordPress Admin Pages and see the new, clean design! 
  
-Watch this video below, to know how to enable/install **Blue Admin** Plugin on your WordPress site. 
-[youtube http://www.youtube.com/watch?v=H3W4R23QlFk] 
- 
-**Note:** From version **12.07.25**, We have changed core settings. If you are using old Blue Admin plugin, please delete current version of Blue Admin from your WordPress plugin directory before installing/updating.  
+**Note:** From version **12.07**, We have changed core settings. If you are using old Blue Admin plugin, please delete current version of Blue Admin from your WordPress plugin directory before installing/updating.  
  
 == Frequently Asked Questions == 
  
@@ -54,8 +47,8 @@ Yes, this plugin will make these changes on your administration section.
 4. It changes the icons 
  
 = Is the plugin compatible with all WP versions? = 
- 
 No, because WordPress could change after each update the admin style, and the plugin is based on it. So if you want to be sure to see the correct style of Blue Admin you need last WordPress version. 
+ 
  
  
 == Screenshots ==  
@@ -74,25 +67,21 @@ No, because WordPress could change after each update the admin style, and the pl
 Fixed some security bugs. 
 
 = 12.08.08 = 
-Added RTL support and new Blue Admin settings page interface. 
+1. Added RTL support to this and older versions. 
+2. Added new Blue Admin settings page. 
+3. New Admin bar menu design
+4. Custom navigation menus to your **WordPress Adminbar/Toolbar**.(only compatible for WordPress 3.3 or above versions) 
  
- 
-= 12.07.25 = 
+= 12.07 = 
 We have changed core settings. If you are already installed Blue Admin plugin, please delete current version of Blue Admin from your WordPress plugin directory before installing/updating.  
  
-= 12.06.24 = 
-Added Custom Adminbar Menus feature to Blue Admin. Also some CSS modifications. 
- 
-= 12.06.04 = 
-Changed client side admin bar style and Some other CSS modifications. 
- 
 = 12.06 = 
-Fixed Admin menu scrolling issue 
+Fixed Admin menu scrolling issue. Changed client side admin bar style and Some other CSS modifications.  
  
 = 12.05  = 
 First version. 
  
-*Our version numbering scheme is based on the release  date. The version number comes from the year, month and date of the release.* 
+*Our version numbering scheme is based on the release  date. The version number comes from the year and month of the release.* 
  
 == Support == 
 For support & more information visit http://lineshjose.com/contact 
