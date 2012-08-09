@@ -79,7 +79,7 @@ Fixed Admin menu scrolling issue. Changed client side admin bar style and Some o
 = 12.05  = 
 First version. 
  
-*Our version numbering scheme is based on the release  date. The version number comes from the year, month and date of the release.* 
+*Our version numbering scheme is based on the release  date. The version number comes from the year and month of the release.* 
  
 == Support == 
 For support & more information visit http://lineshjose.com/contact 
