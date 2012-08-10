@@ -1,8 +1,8 @@
 <?php
 	
-	// Genearl settings updation //
-	if($_SERVER['REQUEST_METHOD'] == 'POST')
-	{
+// Genearl settings updation //
+	/*if($_SERVER['REQUEST_METHOD'] == 'POST')
+	{*/
 		foreach ($lj_options as $value)
 		{
 			if($value['settings_type']=='common')
@@ -12,9 +12,9 @@
 			}
 		}
 		lj_redirect('','saved=true');
-	}	
-		   
-
+	//}	
+	
+	
 	// Settings Page  //
 	if(!function_exists('lj_bd_admin_header'))
 	{
