@@ -7,11 +7,11 @@
 		{
 			if($value['settings_type']=='common')
 			{
-			if ( $_POST[$value['id'].'_enable']){ update_option( $value['id'], '1'); }
-			else if ( $_POST[$value['id'].'_disable']){ update_option( $value['id'], ''); }
+			if ( $_POST[$value['id'].'_enable']){ update_option( $value['id'], '1'); lj_redirect('','saved=true');}
+			else if ( $_POST[$value['id'].'_disable']){ update_option( $value['id'], ''); lj_redirect('','saved=true');}
 			}
 		}
-		lj_redirect('','saved=true');
+		//
 	//}	
 	
 	
