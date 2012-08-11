@@ -168,7 +168,9 @@
 		padding: 3px 10px!important;
 		font-weight:normal!important;
 	}
-	
+	#ed_toolbar.quicktags-toolbar input[value="b"]{
+		font-weight:bold!important;
+	}
 	
 	/* tables */
 	.wp-list-table th{

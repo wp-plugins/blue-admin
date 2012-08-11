@@ -224,7 +224,10 @@
 	}
 	
 	#wpadminbar .ab-top-menu #wp-admin-bar-search.hover,
-	#wpadminbar .ab-top-menu #wp-admin-bar-search.hover .ab-item{
+	#wpadminbar .ab-top-menu #wp-admin-bar-search.hover .ab-item,
+	#wpadminbar #wp-admin-bar-search,
+	#wpadminbar #wp-admin-bar-search:hover,
+	#wpadminbar #wp-admin-bar-search:focus{
 		background:none!important;
 	}
 	
