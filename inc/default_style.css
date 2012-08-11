@@ -116,6 +116,9 @@
 		-webkit-border-radius:0!important;
 		-moz-border-radius:0!important;
 		border-radius:0!important;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px!important;
+		-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px!important;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px!important;
 		background: #f5f4f5!important; /* Old browsers */
 		background: -moz-linear-gradient(top,  #ffffff 0%, #f5f4f5 18%, #d6d6d6 100%)!important; /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(18%,#f5f4f5), color-stop(100%,#d6d6d6))!important; /* Chrome,Safari4+ */
@@ -136,17 +139,14 @@
 	#wp-fullscreen-save .button-primary{
 		color:#FFFFFF!important;
 		border: 1px solid #29447E!important;
-		-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
-		-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
-		box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
-		background: #aeb3bf!important; /* Old browsers */
-		background: -moz-linear-gradient(top,  #B1C2DD 0%, #637bad 15%, #4364a5 100%)!important; /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B1C2DD), color-stop(15%,#637bad), color-stop(100%,#4364a5))!important; /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* IE10+ */
-		background: linear-gradient(to bottom,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B1C2DD', endColorstr='#4364a5',GradientType=0 )!important; /* IE6-9 */
+		background: #3A5793!important; /* Old browsers */
+		background: -moz-linear-gradient(top,  #B1C2DD 0%, #637bad 10%, #3A5793 100%)!important; /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B1C2DD), color-stop(10%,#637bad), color-stop(100%,#3A5793))!important; /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #B1C2DD 0%,#637bad 10%,#3A5793 100%)!important; /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #B1C2DD 0%,#637bad 10%,#3A5793 100%)!important; /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #B1C2DD 0%,#637bad 10%,#3A5793 100%)!important; /* IE10+ */
+		background: linear-gradient(to bottom,  #B1C2DD 0%,#637bad 10%,#3A5793 100%)!important; /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#637bad', endColorstr='#3A5793',GradientType=0 )!important; /* IE6-9 */
 
 
 
@@ -168,9 +168,6 @@
 	 a.button:hover {
 		color: #333!important;
 		border: 1px solid #999!important;
-		box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px!important;
-		-moz-box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px!important;
-		-webkit-box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px!important;
 	}		
 	a.button{padding-bottom:4px!important;}
 		 
