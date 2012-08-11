@@ -116,8 +116,17 @@
 		-webkit-border-radius:0!important;
 		-moz-border-radius:0!important;
 		border-radius:0!important;
-		background-image: url('./images/button.png')!important;
-		background-position:repeat-x !important;
+		background: #f5f4f5!important; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #f5f4f5 18%, #d6d6d6 100%)!important; /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(18%,#f5f4f5), color-stop(100%,#d6d6d6))!important; /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f4f5 18%,#d6d6d6 100%)!important; /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffffff 0%,#f5f4f5 18%,#d6d6d6 100%)!important; /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffffff 0%,#f5f4f5 18%,#d6d6d6 100%)!important; /* IE10+ */
+		background: linear-gradient(to bottom,  #ffffff 0%,#f5f4f5 18%,#d6d6d6 100%)!important; /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d6d6',GradientType=0 )!important; /* IE6-9 */
+
+
+
 		font-family: "lucida grande",tahoma,verdana,arial,sans-serif!important;
 	}
 	
@@ -127,11 +136,20 @@
 	#wp-fullscreen-save .button-primary{
 		color:#FFFFFF!important;
 		border: 1px solid #29447E!important;
-		background-color:#617AAC!important;
-		background-position:100% -47px!important;
 		-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
 		-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
 		box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
+		background: #aeb3bf!important; /* Old browsers */
+		background: -moz-linear-gradient(top,  #B1C2DD 0%, #637bad 15%, #4364a5 100%)!important; /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B1C2DD), color-stop(15%,#637bad), color-stop(100%,#4364a5))!important; /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* IE10+ */
+		background: linear-gradient(to bottom,  #B1C2DD 0%,#637bad 15%,#4364a5 100%)!important; /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B1C2DD', endColorstr='#4364a5',GradientType=0 )!important; /* IE6-9 */
+
+
+
 
 	}
 	a.button-primary:hover,.button:hover, 
@@ -144,13 +162,12 @@
 	#wp-fullscreen-save .button-primary:hover{
 		background: #617AAC!important;
 	}
+
 	.button, .button-secondary,
 	.actions .button-secondary,input[type="button"],
 	 a.button:hover {
 		color: #333!important;
 		border: 1px solid #999!important;
-		background-color:#EEE!important;
-		background-position:left top!important;
 		box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px!important;
 		-moz-box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px!important;
 		-webkit-box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px!important;
@@ -164,13 +181,21 @@
 		background:#eee!important; 
 		color:#000000!important
 	}
-	#ed_toolbar .ed_button{
+	#ed_toolbar .ed_button,
+	#replyrow .ed_button,
+	#qt_content_toolbar .ed_button{
 		padding: 3px 10px!important;
 		font-weight:normal!important;
 	}
-	#ed_toolbar.quicktags-toolbar input[value="b"]{
+	#ed_toolbar.quicktags-toolbar input[value="b"],
+	#replyrow .quicktags-toolbar input[value="b"],
+	#qt_content_toolbar.quicktags-toolbar input[value="b"]{
 		font-weight:bold!important;
 	}
+	#replybtn{
+		color:#fff;
+	}
+	
 	
 	/* tables */
 	.wp-list-table th{
@@ -836,7 +861,15 @@
 		padding: 5px!important;
 	}
 	.login form .button-primary{
-		background: #67A54B url('./images/button.png') repeat-x 100% -95px !important;
+background: #accc9e5a973f!important; /* Old browsers */
+background: -moz-linear-gradient(top,  #accc9e 0%, #75ae5c 16%, #5a973f 100%)!important; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#accc9e), color-stop(16%,#75ae5c), color-stop(100%,#5a973f))!important; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #accc9e 0%,#75ae5c 16%,#5a973f 100%)!important; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #accc9e 0%,#75ae5c 16%,#5a973f 100%)!important; /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #accc9e 0%,#75ae5c 16%,#5a973f 100%)!important; /* IE10+ */
+background: linear-gradient(to bottom,  #accc9e 0%,#75ae5c 16%,#5a973f 100%)!important; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#accc9e', endColorstr='#5a973f',GradientType=0 )!important; /* IE6-9 */
+
 		border: 1px solid #1C5A00!important;
 		-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
 		color:#EAF2FA!important;
