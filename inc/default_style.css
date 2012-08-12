@@ -857,8 +857,9 @@
 		margin: 0 0 15px;
 		padding: 5px!important;
 	}
-	.login form .button-primary{
-background: #accc9e5a973f!important; /* Old browsers */
+	.login form .button-primary, 
+	.ba_box .button-primary.enable{
+background: #5a973f!important; /* Old browsers */
 background: -moz-linear-gradient(top,  #accc9e 0%, #75ae5c 16%, #5a973f 100%)!important; /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#accc9e), color-stop(16%,#75ae5c), color-stop(100%,#5a973f))!important; /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  #accc9e 0%,#75ae5c 16%,#5a973f 100%)!important; /* Chrome10+,Safari5.1+ */
@@ -871,11 +872,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#accc9e', end
 		-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1)!important;
 		color:#EAF2FA!important;
 	}
-	.login form .button-primary:active{
+	.login form .button-primary:active,
+	.ba_box .button-primary.enable:active{
 		background:#67A54B!important;
 	}
-	.login form .button-primary:hover{
+	.login form .button-primary:hover,
+	.ba_box .button-primary.enable:hover{
 		color:#fff!important;
+		
 	}
 	.login form label, 
 	.login form .forgetmenot label{
@@ -1035,9 +1039,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#accc9e', end
 		font-style:normal
 	}
 	.ba_box .button-primary.enable{
-		background-position:100% -95px!important;
 		border-color:#1C5A00!important;
-		background-color:#67A54B!important;
 	}
 	.ba_box.ba_survay{
 		margin:10px auto;
