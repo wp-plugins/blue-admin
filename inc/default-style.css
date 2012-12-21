@@ -909,7 +909,7 @@ h1,h2,h3,h4,h5,h6 {
 		height: 12px; 
 		width: 16px;
 		padding: 0;
-		margin: 5px 0 0 2px;
+		margin: 3px 0 0 5px
 	}
 	#adminmenu .toplevel_page_blue_admin.current div.wp-menu-image a img,
 	#adminmenu .toplevel_page_blue_admin:hover div.wp-menu-image a img{
@@ -1031,6 +1031,7 @@ h1,h2,h3,h4,h5,h6 {
 	.rtl.folded #collapse-button div {
 		background: url('./images/admin-bar-sprite.png') 2px -303px no-repeat !important;
 	}
+	
 	
 	/* For responsive design */
 	@media only screen and (max-width: 900px){
