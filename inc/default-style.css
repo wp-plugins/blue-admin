@@ -403,8 +403,7 @@ h1,h2,h3,h4,h5,h6 {
 		height:0px!important; 
 		width:0px!important; 
 	}
-	.folded #adminmenu li.wp-has-submenu.wp-not-current-submenu .wp-menu-arrow,
-	.auto-fold #adminmenu li.wp-has-submenu.wp-not-current-submenu .wp-menu-arrow{
+	.folded #adminmenu li.wp-has-submenu.wp-not-current-submenu .wp-menu-arrow{
 		border:none!important;
 	}
 	#adminmenu .wp-submenu li{
@@ -477,8 +476,7 @@ h1,h2,h3,h4,h5,h6 {
 	.folded #adminmenu div.wp-menu-image {
 		margin-left:0;
 	}
-	.folded #adminmenu .wp-has-submenu.opensub .wp-submenu,
-	.auto-fold #adminmenu .wp-has-submenu.opensub .wp-submenu {
+	.folded #adminmenu .wp-has-submenu.opensub .wp-submenu {
 		margin-left: 0px;
 		top: 3px;
 		padding: 0 0 5px;
@@ -506,11 +504,7 @@ h1,h2,h3,h4,h5,h6 {
 	.folded #adminmenu li.current.menu-top{}
 	.folded #adminmenu li.wp-has-current-submenu, 
 	.folded #adminmenu li.current.menu-top, 
-	.folded #adminmenu .menu-top:hover,
-	.auto-fold #adminmenu li.wp-has-current-submenu, 
-	.auto-fold #adminmenu li.current.menu-top,
-	.auto-fold #adminmenu .wp-has-submenu.opensub .wp-submenu .wp-submenu-head,
-	.auto-fold #adminmenu .menu-top:hover{
+	.folded #adminmenu .menu-top:hover{
 		background:#3B5998!important;
 	}
 	
@@ -1037,3 +1031,27 @@ h1,h2,h3,h4,h5,h6 {
 	.rtl.folded #collapse-button div {
 		background: url('./images/admin-bar-sprite.png') 2px -303px no-repeat !important;
 	}
+	
+	/* For responsive design */
+	@media only screen and (max-width: 900px){
+		.auto-fold #adminmenu li.wp-has-submenu.wp-not-current-submenu .wp-menu-arrow{
+			border:none!important;
+		}
+		.auto-fold #adminmenu .wp-has-submenu.opensub .wp-submenu {
+			margin-left: 0px;
+			top: 3px;
+			padding: 0 0 5px;
+			width: 145px;
+		}
+		.auto-fold #adminmenu li.wp-has-current-submenu, 
+			.auto-fold #adminmenu li.current.menu-top,
+			.auto-fold #adminmenu .wp-has-submenu.opensub .wp-submenu .wp-submenu-head,
+			.auto-fold #adminmenu .menu-top:hover{
+				background:#3B5998!important;
+		}
+		.auto-fold  #collapse-button div {
+			background: url('./images/admin-bar-sprite.png') 3px -28px no-repeat !important;
+		}
+}
+	}
+	
