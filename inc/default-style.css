@@ -760,6 +760,9 @@ h1,h2,h3,h4,h5,h6 {
 		background:none!important;
 		top: 20px!important;
 	}
+	.attachment-info .delete-attachment{
+		color:red !important;
+	}
 	
 	/* Themes Listing ---------------------------------------------> */
 	#availablethemes .available-theme {
