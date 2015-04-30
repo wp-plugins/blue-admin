@@ -53,14 +53,15 @@ No, because WordPress could change after each update the admin style, and the pl
  
 == Screenshots ==  
  
-1. Login Form.
-2. Dashboard. 
-3. Toolbar Menu.  
-4. Admin Menu - Normal and Folded view.
-5. RTL site view.
+1. Dashboard. 
  
  
 == Changelog == 
+= 15.05.01 =
+Very lite version.
+Compatible for WordPress 4.2
+
+
 = 12.12.21 =
 Compatible for WordPress 3.5
 
