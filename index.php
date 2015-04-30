@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: Blue Admin
-	Version: 15.04
+	Version: 15.05
 	Plugin URI: http://lineshjose.com/projects/blue-admin/
 	Description: This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
 	Author: Linesh Jose
