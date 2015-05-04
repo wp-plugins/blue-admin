@@ -64,6 +64,9 @@ input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, inp
 input[type=checkbox], input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=radio], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea,input.code{
 	padding:5px;	
 }
+input[type=radio]{
+	border-radius:50% !important;
+}
 
 .wp-core-ui input[type="reset"]:hover, 
 .wp-core-ui input[type="reset"]:active {
@@ -443,7 +446,7 @@ div#wp-responsive-toggle a:before {
   background: #E9EAED;
 }
 #wp-content-editor-tools{
-	background:none;
+	background:#e9eaed;
 }
 body#tinymce,
 body.wp-autoresize,	
