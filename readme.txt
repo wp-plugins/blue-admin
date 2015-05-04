@@ -5,7 +5,7 @@ Author: Linesh Jose
 Author URI: http://lineshjose.com/ 
 Plugin Name: Blue Admin 
 Stable tag: 15.05
-Version: 15.05
+Version: 15.05.04
 Requires at least: 4 
 Tested up to: 4.2 
 License: GPLv2 or later 
