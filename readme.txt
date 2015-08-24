@@ -2,14 +2,14 @@
 === Plugin Name === 
 Contributors: lineshjose
 Author: Linesh Jose  
-Author URI: http://lineshjose.com/ 
+Author URI: https://lineshjose.com/ 
 Plugin Name: Blue Admin 
-Stable tag: 15.05
-Version: 15.05.04
+Stable tag: 15.08
+Version: 15.08.24
 Requires at least: 4 
-Tested up to: 4.2 
+Tested up to: 4.3 
 License: GPLv2 or later 
-Plugin URI: http://tech.lineshjose.com/introducing-blue-admin/ 
+Plugin URI: https://lineshjose.com/projects/blue-admin/
 Tags: Blue Admin,clearadmin,clear,admin,theme,admin theme,administration,WordPress administration,facebook style,facebook looks-like,blue,blue admin bar,custom menus,custom navigation,adminbar navigation,adminbar menus 
 Donate link: http://bit.ly/donate-blue-admin 
 
@@ -57,6 +57,11 @@ No, because WordPress could change after each update the admin style, and the pl
  
  
 == Changelog == 
+
+= 15.08.24 =
+CSS fixes
+Compatible for WordPress 4.3
+
 = 15.05.01 =
 Very lite version.
 Compatible for WordPress 4.2

@@ -24,7 +24,8 @@
 #wpadminbar .ab-item:before,
 #wpadminbar a.ab-item, 
 #wpadminbar>#wp-toolbar span.ab-label, 
-#wpadminbar>#wp-toolbar span.noticon{
+#wpadminbar>#wp-toolbar span.noticon,
+#wpadminbar  li{
 	color:#f1f1f1 !important;
 }
 #wpadminbar  a{
@@ -40,7 +41,9 @@
 #wpadminbar .ab-top-menu>li>.ab-item:focus,
 #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
 #wpadminbar  a:hover,
-#wpadminbar  a:hover span.ab-label{
+#wpadminbar  a:hover span.ab-label,
+#wpadminbar  li:hover .ab-empty-item,
+#wpadminbar  li:hover .ab-item{
 	color:#000 !important;
 	background:none !important;	
 }
@@ -117,12 +120,23 @@
 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu{
 	background:none !important;
 }
-#wpadminbar #wp-admin-bar-user-info .display-name, #wpadminbar #wp-admin-bar-user-info a:hover .display-name{
+#wpadminbar #wp-admin-bar-user-info .display-name, 
+#wpadminbar #wp-admin-bar-user-info a:hover .display-name{
 	color:#000;	
 }
 #wpadminbar .quicklinks .ab-top-secondary>li .ab-sub-wrapper{
 	right: -1px;
   left: inherit;
+}
+#wpadminbar .menupop .ab-sub-wrapper {
+    background: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #3A5795;
+}
+#wpadminbar .menupop li.hover>.ab-sub-wrapper, 
+#wpadminbar .menupop li:hover>.ab-sub-wrapper {
+    margin-left: 103%;
+    margin-top: -32px;
 }
 @media screen and (max-width: 782px)
 {

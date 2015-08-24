@@ -45,10 +45,12 @@ if(!function_exists('lj_add_options'))
 			if(get_option($option['id'])=='0' || get_option($option['id'])==''  ){
 			update_option($option['id'],$option['default']);}
 		}
-		add_action('admin_enqueue_scripts', 'lj_admin_styles');
-		add_action('login_head', 'lj_admin_styles');
-		add_action('wp_head', 'lj_admin_styles');
-		add_action( 'admin_enqueue_scripts','lj_pnote_admin' );	
+		if(is_admin() || is_user_logged_in()){
+				add_action('admin_enqueue_scripts', 'lj_admin_styles');
+				add_action('login_head', 'lj_admin_styles');
+				add_action('wp_head', 'lj_admin_styles');
+				add_action( 'admin_enqueue_scripts','lj_pnote_admin' );	
+		}
 	}
 	add_action('init','lj_add_options');
 }

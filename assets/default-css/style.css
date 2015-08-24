@@ -471,3 +471,7 @@ body#tinymce p{
   margin-top: -4px;
   top: 13px;
 }
+.plugin-install #the-list td, .plugins .active td, .plugins .active th, .plugins .inactive td, .plugins .inactive th, .upgrade .plugins td, .upgrade .plugins th {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.1) !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1)  !important;
+}

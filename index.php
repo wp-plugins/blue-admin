@@ -1,22 +1,22 @@
 <?php
 /*
 	Plugin Name: Blue Admin
-	Version: 15.05
-	Plugin URI: http://lineshjose.com/projects/blue-admin/
+	Version: 15.08
+	Plugin URI: https://lineshjose.com/projects/blue-admin/
 	Description: This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed.
 	Author: Linesh Jose
-	Author URI: http://lineshjose.com
+	Author URI: https://lineshjose.com
 	License: GPL2
 */
 global $wp_lj_plugin;
 $wp_lj_plugin= array(
 					'name'=>"Blue Admin",
 					'slug'=>"blue_admin", 
-					'version'=>'15.05', 
+					'version'=>'15.08', 
 					'url'=> plugin_dir_url(__FILE__),
 					'path'=> plugin_dir_path(__FILE__),
 					'donate'=>'http://bit.ly/donate-blue-admin',
-					'support'=> 'http://lineshjose.com/projects/blue-admin/'
+					'support'=> 'https://lineshjose.com/projects/blue-admin/'
 					);
 require_once($wp_lj_plugin['path'].'./inc/inc.php');
 	
