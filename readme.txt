@@ -59,8 +59,8 @@ No, because WordPress could change after each update the admin style, and the pl
 == Changelog == 
 
 = 15.08.24 =
-CSS fixes
-Compatible for WordPress 4.3
+CSS fixes.
+Compatible for WordPress 4.3.
 
 = 15.05.01 =
 Very lite version.
