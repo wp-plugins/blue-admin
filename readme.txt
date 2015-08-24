@@ -60,15 +60,15 @@ No, because WordPress could change after each update the admin style, and the pl
 
 = 15.08.24 =
 CSS fixes.
-Compatible for WordPress 4.3.
+Compatible up to 4.3.
 
 = 15.05.01 =
 Very lite version.
-Compatible for WordPress 4.2
+Compatible up to 4.2
 
 
 = 12.12.21 =
-Compatible for WordPress 3.5
+Compatible up to 3.5
 
 = 12.08.10 = 
 Fixed some coding and design bugs. 
