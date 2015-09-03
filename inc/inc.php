@@ -85,7 +85,7 @@ if(!function_exists('lj_bd_admin'))
 
 
 // Settings page pointer //	
-if (!function_exists(lj_pnote_admin))
+if (!function_exists('lj_pnote_admin'))
 {	
 	function lj_pnote_admin()
 	{
@@ -193,19 +193,16 @@ if(get_settings('blue_admin_adminbar') =='1')
 	if ( version_compare( $wp_version, '3.3', '>' ) )
 	{
 			
-		if (function_exists('register_nav_menus'))
+		if (function_exists('register_nav_menus') && !function_exists('lj_adminbar_menus'))
 		{
-			if(!function_exists(lj_adminbar_menus))
-			{
-				function lj_adminbar_menus() {
-					register_nav_menus(	array('lj_adminbar_menus' => __( 'Adminbar Menu','lj' )));
-				}
-				add_action( 'init', 'lj_adminbar_menus' );
+			function lj_adminbar_menus() {
+				register_nav_menus(	array('lj_adminbar_menus' => __( 'Adminbar Menu','lj' )));
 			}
+			add_action( 'init', 'lj_adminbar_menus' );
 		}	
 				
 
-		if(!function_exists(lj_custom_adminbar_menus))
+		if(!function_exists('lj_custom_adminbar_menus'))
 		{
 			// To add custom links to adminbar //
 			function lj_custom_adminbar_menus() 

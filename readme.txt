@@ -4,8 +4,8 @@ Contributors: lineshjose
 Author: Linesh Jose  
 Author URI: https://lineshjose.com/ 
 Plugin Name: Blue Admin 
-Stable tag: 15.08
-Version: 15.08.24
+Stable tag: 15.09
+Version: 15.09.03
 Requires at least: 4 
 Tested up to: 4.3 
 License: GPLv2 or later 
@@ -57,6 +57,9 @@ No, because WordPress could change after each update the admin style, and the pl
  
  
 == Changelog == 
+
+= 15.09.03 =
+Bug fixes.
 
 = 15.08.24 =
 CSS fixes.
