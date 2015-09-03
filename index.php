@@ -28,9 +28,9 @@ if(!function_exists('lj_plugin_actions'))
 		global $wp_lj_plugin;
 		$plugin = plugin_basename($wp_lj_plugin['path'].'index.php');
 		if ($file == $plugin) {
-			$links[] = '<a href="' . admin_url( 'admin.php?page='.$wp_lj_plugin['slug'] ) . '">' . __('Settings', TPTN_LOCAL_NAME ) . '</a>';
-			$links[] = '<a href="'.$wp_lj_plugin['donate'].'" target="_blank">' . __('Donate', TPTN_LOCAL_NAME ) . '</a>';
-			$links[] = '<a href="'.$wp_lj_plugin['support'].'" target="_blank">' . __('Support', TPTN_LOCAL_NAME ) . '</a>';
+			$links[] = '<a href="' . admin_url( 'admin.php?page='.$wp_lj_plugin['slug'] ) . '"><span class="dashicons dashicons-admin-settings"></span>' . __('Settings', TPTN_LOCAL_NAME ) . '</a>';
+			$links[] = '<a href="'.$wp_lj_plugin['donate'].'" target="_blank"><span class="dashicons dashicons-heart"></span>' . __('Donate', TPTN_LOCAL_NAME ) . '</a>';
+			$links[] = '<a href="'.$wp_lj_plugin['support'].'" target="_blank"><span class="dashicons dashicons-help"></span>' . __('Support', TPTN_LOCAL_NAME ) . '</a>';
 		}
 		return $links;
 	}
