@@ -21,7 +21,7 @@ $wp_lj_plugin= array(
 require_once($wp_lj_plugin['path'].'./inc/inc.php');
 	
 // Add meta links
-if(!function_exists(lj_plugin_actions))
+if(!function_exists('lj_plugin_actions'))
 {
 	function lj_plugin_actions( $links, $file )
 	{
