@@ -12,7 +12,7 @@ global $wp_lj_plugin;
 $wp_lj_plugin= array(
 					'name'=>"Blue Admin",
 					'slug'=>"blue_admin", 
-					'version'=>'15.08', 
+					'version'=>'15.09', 
 					'url'=> plugin_dir_url(__FILE__),
 					'path'=> plugin_dir_path(__FILE__),
 					'donate'=>'http://bit.ly/donate-blue-admin',

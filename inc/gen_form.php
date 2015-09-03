@@ -34,8 +34,7 @@
 </style>
 
 <!-- General settings page starts -->
-<div> 
-  <img src="<?php  echo  $wp_lj_plugin['url']; ?>assets/images/banner.png" alt="<?php echo $wp_lj_plugin['name']; ?>" title="<?php echo $wp_lj_plugin['name']; ?>" width="500" height="160" class="alignleft" style="margin-right:20px;   border: 1px solid rgb(181, 181, 181);"/>
+<div> <img src="<?php  echo  $wp_lj_plugin['url']; ?>assets/images/banner.png" alt="<?php echo $wp_lj_plugin['name']; ?>" title="<?php echo $wp_lj_plugin['name']; ?>" width="500" height="160" class="alignleft" style="margin-right:20px;   border: 1px solid rgb(181, 181, 181);"/>
   <p>Thanks for downloading <strong> <?php echo $wp_lj_plugin['name']; ?> </strong>(ver. <?php echo $wp_lj_plugin['version']; ?>) by <a href="http://lineshjose.com/" style="font-size:13px">Linesh Jose</a>. This is a simple and clear admin design that makes your WordPress administration section more clear and relaxed. Hope you enjoy using it!. There are a bunch of cool features that will surely help you get your admin panel looking and working it's best.</p>
   <h4 class="" style="margin:0;">Donate <?php echo $wp_lj_plugin['name'];?></h4>
   <p>A lot of hard work went in to programming and designing <strong> <?php echo $wp_lj_plugin['name']; ?> </strong> plugin, and if you would like to support please use the <a href="http://bit.ly/donate-blue-admin" style="font-size:13px">donate</a> here.  If you have any questions, comments, or if you encounter a bug, please <a href="http://tech.lineshjose.com/introducing-blue-admin/" style="font-size:13px">contact me</a>.</p>
@@ -74,8 +73,11 @@
 
 <div style="clear:both"></div>
 <div class="" style="margin:40px auto 0px; text-align:center;"> 
-	<a href="http://lineshjose.com/" target="_blank" style="margin:5px auto;"> 
-	<img src="<?php  echo  $wp_lj_plugin['url']; ?>assets/images/lin_logo.png" alt="A LineshJose.com Magic" title="A LineshJose.com Magic" width="200" height="29" class=""/></a>
-  <p style="margin:0; padding:0;"> <a target="_blank" href="http://wordpress.org/extend/plugins/blue-admin/changelog/" title="Visit plugin site">Ver. <?php echo $wp_lj_plugin['version']; ?></a> | <a target="_blank" href="http://wordpress.org/extend/plugins/blue-admin/" title="Visit plugin site">Visit plugin site</a> | <a target="_blank" href="<?php echo $wp_lj_plugin['donate'];?>">Donate</a> | <a target="_blank" href="<?php echo $wp_lj_plugin['support'];?>" target="_blank">Support</a> </p>
+	<a href="http://lineshjose.com/" target="_blank" style="margin:5px auto;"> <img src="<?php  echo  $wp_lj_plugin['url']; ?>assets/images/lin_logo.png" alt="A LineshJose.com Magic" title="A LineshJose.com Magic" width="200" height="29" class=""/></a>
+  <p style="margin:0; padding:0;"> 
+  	<a target="_blank" href="http://wordpress.org/extend/plugins/blue-admin/changelog/" title="Visit plugin site">Ver. <?php echo $wp_lj_plugin['version']; ?></a> | 
+    <a target="_blank" href="http://wordpress.org/extend/plugins/blue-admin/" title="Visit plugin site"><span class="dashicons dashicons-admin-external"></span>Visit plugin site</a> | 
+    <a target="_blank" href="<?php echo $wp_lj_plugin['donate'];?>"><span class="dashicons dashicons-admin-heart"></span>Donate</a> | 
+    <a target="_blank" href="<?php echo $wp_lj_plugin['support'];?>" target="_blank"><span class="dashicons dashicons-admin-sos"></span>Support</a> </p>
   <div style="clear:both"></div>
 </div>
